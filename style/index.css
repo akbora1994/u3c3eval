@@ -1,0 +1,41 @@
+#navbar{
+    display: flex;
+    background-color: skyblue;
+justify-content: flex-end;
+    margin-right: 20px;
+    height: 50px;
+    border: 1px solid black;
+}
+#navbar>button{
+    background-color: skyblue;
+    margin-right: 20px;
+    border: none;
+    
+}
+#navbar>a{
+    margin-top: 16px;
+    margin-right: 10px;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+#menu>div{
+    border: 2px solid rgb(0, 174, 255);
+   text-align: center;
+    height: 380px;
+}
+
+#cofffee_count{
+    margin-right: 18px;
+    
+}
+
+#navbar>button:hover{
+cursor: pointer;
+}

@@ -1,0 +1,14 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#bucket>div{
+    border: 2px solid rgb(0, 174, 255);
+    text-align: center;
+}
+#confirm_checkout{
+    margin-top: 50px;
+}
